@@ -7,20 +7,9 @@ const {CLIENT_ORIGIN} = require('../config')
 
 const app = express();
 
-// app.use(
-//     cors({
-//       allowedHeaders: ["sessionId", "Content-Type"],
-//       exposedHeaders: ["sessionId"],
-//       origin: "",
-//       methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-//       preflightContinue: false,
-//     })
-//   );
-  
-//   app.use((req, res, next) => {
-//     res.header("Access-Control-Allow-Origin", "");
-//     next();
-//   });
+app.use(cors({
+    origin: CLIENT_ORIGIN
+}));
 
 app.use('/users', usersRouter);
 app.use('/cats', catsRouter);

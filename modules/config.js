@@ -1,4 +1,4 @@
 module.exports = {
-  CLIENT_ORIGIN : process.env.CLIENT_ORIGIN || 'https://upbeat-lamport-5c1c9d.netlify.app',
+  CLIENT_ORIGIN : process.env.CLIENT_ORIGIN || 'petful-client.lfuen.vercel.app',
   PORT : process.env.PORT || 8000
 }
