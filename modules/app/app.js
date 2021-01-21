@@ -7,9 +7,9 @@ const {CLIENT_ORIGIN} = require('../config')
 
 const app = express();
 
-app.use(cors({
-    origin: CLIENT_ORIGIN
-}));
+// app.use(cors({
+//     origin: CLIENT_ORIGIN
+// }));
 
 app.use('/users', usersRouter);
 app.use('/cats', catsRouter);
