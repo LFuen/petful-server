@@ -1,14 +1,5 @@
 const cats = [
   {
-    imageURL: 'https://static.wikia.nocookie.net/thesabrinatheteenagewitch/images/e/e2/Salem.png/revision/latest/scale-to-width-down/300?cb=20180330034126',
-    name: 'Salem Saberhagen',
-    age: 500,
-    gender: 'Male',
-    breed: 'Warlock',
-    description: "He's currently a little black kitty",
-    story: 'sentenced to spend 100 years as a cat by the Witches Council as punishment for attempting to take over the world.'
-},
-  {
     age: 2,
     breed: 'Bengal',
     description: 'Orange bengal cat with black stripes lounging on concrete.',
