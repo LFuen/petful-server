@@ -1,4 +1,3 @@
-// This file creates the Queue class and Node class for each node in the queue.
 class _Node {
   constructor(value) {
     this.value = value;
